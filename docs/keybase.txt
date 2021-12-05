@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/niksram
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://niksram.github.io
+  * I am niksram (https://keybase.io/niksram) on keybase.
+  * I have a public key ASAug5txy4HYqmfuNAKuu1WvyDdY0il9Gnx8bPeMpuUrWQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200007d270e2958e5855dfd7551bbdc23aac7f9f403a135e7091408e1f9a2bbfca0a",
+      "host": "keybase.io",
+      "kid": "01202e839b71cb81d8aa67ee3402aebb55afc83758d2297d1a7c7c6cf78ca6e52b590a",
+      "uid": "d7eef7603b1a2a0f8af4dcf767741c19",
+      "username": "niksram"
+    },
+    "merkle_root": {
+      "ctime": 1638686098,
+      "hash": "8e39f714bfdfebcffed6efc76d3f5cd2e49f94b10c57ec38cb72f836f587872c3957d6e37b764964254dabc3e9ce0fb53a714fb0cc493781cfe0f239d49628bc",
+      "hash_meta": "f21b20edec23b9ac870f3149a8b17f226164c6ab23750d7700d7645cf8b1a987",
+      "seqno": 21365934
+    },
+    "service": {
+      "entropy": "sseW7Pq35LMdnZvdeiSXTODj",
+      "hostname": "niksram.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.1"
+  },
+  "ctime": 1638686172,
+  "expire_in": 504576000,
+  "prev": "fdb894e35e5c13b763007f2ccfc67ba4740a91e7774c2010761568b5157068c4",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLoObccuB2Kpn7jQCrrtVr8g3WNIpfRp8fGz3jKblK1kKp3BheWxvYWTESpcCIMQg/biU415cE7djAH8sz8Z7pHQKked3TCAQdhVotRVwaMTEILhqrm9GgYv2S7oYA29vl2MkGPfmVJ2RpOB7JBkBunUpAgHCo3NpZ8RAiydHpQbtdRI3NbE4Jh6fkApqevse5dGc8M5dfeteNbB6k4Z3yNOuLSj3mTPTgzry7jD2MUvvEGz6K2Iex7ZFDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGF2yiFQ33em+nI/6bLuPNhvkyqGgXfbk45U3YgKqwfHo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/niksram
+
+==================================================================
