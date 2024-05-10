@@ -7,5 +7,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://niksram.github.io',
   // base: '/niksram.github.io',
+  output: 'static',
   integrations: [mdx(), sitemap(), tailwind()]
 });
