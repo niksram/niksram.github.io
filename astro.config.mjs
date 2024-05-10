@@ -6,6 +6,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://niksram.github.io',
-  base: 'niksram.github.io',
   integrations: [mdx(), sitemap(), tailwind()]
 });
