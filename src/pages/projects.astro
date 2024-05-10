@@ -3,49 +3,49 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Publications</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="MiSeRTrace - Kernel-level Request Tracing for Microservice Visibility"
+    subtitle="PES University"
+    img="/MiSeRTrace.png"
+    desc="MiSeRTrace (MicroService Request Trace) is a tool developed to trace the end-to-end path of requests entering a microservice application at the kernel space without instrumentation of the application code."
+    url="https://dl.acm.org/doi/10.1145/3491204.3527462"
+    publication="Workshop on Hot Topics in Cloud Computing Performance (HotCloudPerf) in companion of the ACM/SPEC International Conference on Performance Engineering (ICPE) 2022"
+    timeline="[Jan 2021] to [May 2021]"
+    badge="FOSS"
   />
   <div class="divider my-0"></div>
-  <HorizontalCard
+  <!-- <HorizontalCard
     title="Demo Project 2"
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
-  />
+  /> -->
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Internal Projects</div>
   </div>
-
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="Workload Trace Extrapolation for Future High Core-Count Processor Designs"
+    subtitle="Advanced Micro Devices (AMD)"
+    img="/AMD.png"
+    desc="Designing a new approach to extrapolate high thread-count instruction traces of data-sharing intensive workloads from pre-existing low thread-count traces to project performance on future high core-count processor designs."
+    timeline="[September 2023] onwards"
     url="#"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="Faster, Better Workload Sampling for Architecture Simulations"
+    subtitle="Advanced Micro Devices (AMD)"
+    img="/AMD.png"
+    desc="Designed a new approach to perform targeted sampling of workloads for instruction traces in a microarchitecture independent fashion. This method delivers improved accuracy in performance projection with 5 to 10x reduction in storage, computational requirements and engineering efforts over the legacy approach."
+    publication="AMD's Global Technical Author's Conference (GTAC) 2023"
+    timeline="[June 2022] to [March 2023]"
     url="#"
   />
+  <div class="divider my-0"></div>
 </BaseLayout>

@@ -4,7 +4,13 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
-  <div class="mb-5">
+  <!-- <div class="mb-10">
+  <object class="pdf" 
+            data="/Resume.pdf"
+height="1000" width="1000"
+            ></object>
+          </div> -->
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
 
@@ -12,21 +18,33 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
     aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+  <!-- </div> -->
+  <div class="mt-8">
+    <a class="btn" href="https://drive.google.com/file/d/11ZppRUTIN_GfzF5fUzSTWR-9PEeOZR7y/view?usp=drive_link" target="_blank">
+      Link to CV</a
+    >
   </div>
-
+  <br>
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Education</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="PES University"
+      subtitleMain="Bachelor of Technology in Computer Science and Engineering"
+      subtitle="[2018] to [2022] in [Bengaluru], [India]"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Vidya Mandir Ind. PU College"
+      subtitleMain="Pre University"
+      subtitle="[2016] to [2018] in [Bengaluru], [India]"
+    />
+    <TimeLineElement
+      title="Sindhi High School"
+      subtitleMain="School"
+      subtitle="[2006] to [2016] in [Bengaluru], [India]"
     />
   </div>
 
@@ -36,26 +54,91 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Advanced Micro Devices (AMD)"
+      subtitleMain="Design Engineer 2, Server Performance Group"
+      subtitle="[May 2022] to [Present] in [Bengaluru], [India]"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul class="list-disc mx-6 mb-10 grid gap-2">
+        <li>
+          Developed suite of tools to advance methodologies involved in
+          projecting and evaluating SoC performance - <i
+            >refer "Research" section</i
+          >
+        </li>
+        <li>
+          Involved in post-silicon performance validation and optimization for
+          latest server Zen4 core processors <b
+            >Genoa (96core per socket SoC) and Bergamo (128 core per socket SoC)</b
+          >. Debugged bottlenecks in SoC (Core and Infinity Data Fabric) that
+          prevented workloads from scaling. Currently involved in post-silicon
+          performance optimization activities for the upcoming server processor
+          lineup Turin.
+        </li>
+        <li>
+          Confgured suite of database workloads - MongoDB, Cassandra, MySQL,
+          Redis, etc for maximized throughput and minimized tail latency
+          scenarios. These workload confgurations are used for performance
+          evaluation and IpC (Instructions per Cycle) uplift claims.
+        </li>
+        <li>
+          Characterized core warmup and sampling instruction intervals
+          systematically for a suite of server-kernel workloads. This is used to
+          drive RTL simulations for core IpC uplift analysis.
+        </li>
+        <li>
+          Performed competitive analysis and characterization of SPEC CPU2017
+          benchmarks on competing SoC designs and compiler variants
+        </li>
+      </ul>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title=""
+      subtitleMain="Intern, Server Performance Group"
+      subtitle="[December 2021] to [May 2022] in [Bengaluru], [India]"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul class="list-disc mx-6 mb-10 grid gap-2">
+        <li>
+          Performed competitive analysis and characterization of SPEC CPU2017
+          benchmarks on competing SoC designs and compiler variants
+        </li>
+      </ul>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Morgan Stanley"
+      subtitleMain="Summer Technology Analyst Intern"
+      subtitle="[May 2021] to [July 2021] in [Bengaluru], [India]"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul class="list-disc mx-6 mb-10 grid gap-2">
+        <li>
+          Developed a full-stack web application that provides real-time data
+          drill-down and analysis capabilities on a live backend data source on
+          a simple search keyword. The algorithm identi es relationship between
+          the search parameter and backend data. This information is used to
+          construct dynamic database queries and service calls to various
+          endpoints to consolidate data onto an interactive dashboard.
+        </li>
+      </ul>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Center for Cloud Computing and Big Data, PES University"
+      subtitleMain="Undergraduate Researcher"
+      subtitle="[May 2020] to [August 2020] in [Bengaluru], [India]"
+    >
+      <ul class="list-disc mx-6 mb-10 grid gap-2">
+        <li>
+          Worked with a team to develop a microservice application for the
+          Department of Computer Science, PES University to reduce paperwork
+          involved in senior year thesis evaluations.
+        </li>
+        <li>
+          Presented at the student project showcase event in IEEE International
+          Conference on Cloud Computing in Emerging Markets, 2020
+        </li>
+      </ul>
     </TimeLineElement>
   </div>
 
-  <div class="mb-5">
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
@@ -88,5 +171,5 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>Skill Name</li>
     <li>Skill Name</li>
     <li>Skill Name</li>
-  </ul>
+  </ul> -->
 </BaseLayout>
